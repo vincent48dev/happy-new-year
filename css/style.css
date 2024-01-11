@@ -14,6 +14,7 @@ section{
     top: 0;
     opacity: 0;
     transition: all 2s;
+    
 }
 .play{
     position: fixed;
@@ -76,8 +77,8 @@ section:before{
     margin-bottom: 30px;
     text-align: center;
     font-size: 48px;
-    font-family: fantasy;
-}
+    font-family: 'Anton', sans-serif;
+ }
 .stepinner p{
     font-size: 36px;
     text-align: center;
@@ -142,4 +143,13 @@ section:before{
     transition: all 2s;
     position: relative;
     bottom: -50px;   
+}
+@media ( max-width:432px ){
+    .stepinner h2{
+        font-size: 28px;
+    }
+    .stepinner p{
+        font-size: 23px;
+       
+    }
 }
